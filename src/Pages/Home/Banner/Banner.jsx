@@ -6,7 +6,7 @@ import img5 from '../../../../assets/images/banner/5.jpg'
 import img6 from '../../../../assets/images/banner/6.jpg'
 const Banner = () => {
   return (
-    <div className="carousel w-full">
+    <div className="carousel w-full h-[600px]">
       <div id="slide1" className="carousel-item relative w-full">
         <img
           src={img1}
@@ -19,6 +19,13 @@ const Banner = () => {
           <a href="#slide2" className="btn btn-circle">
             ❯
           </a>
+        </div>
+        <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0 ">
+          <h2>Affordable Price For Car Servicing</h2>
+          <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+          <button>Discover More</button>
+          <button>Latest Project</button>
+
         </div>
       </div>
       <div id="slide2" className="carousel-item relative w-full">
