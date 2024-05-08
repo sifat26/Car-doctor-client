@@ -4,6 +4,7 @@ import Root from "../Layout/Root";
 import NavBar from "../Pages/Shared/NavBar";
 import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/SignUp/SignUp";
+import CheckOut from "../Pages/CheckOut/CheckOut";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
         {
           path:'/signup',
           element:<SignUp/>
+        },
+        {
+          path:'/checkout/:id',
+          element:<CheckOut/>
         }
 
       ]
