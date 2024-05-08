@@ -19,7 +19,7 @@ const Banner = () => {
             have suffered alteration in some form
           </p>
           <button className="btn btn-outline text-white">Discover More</button>
-          <button className="btn bg-orange-600 border-none text-white lg:ml-5">
+          <button className="btn bg-[#FF3811] border-none text-white lg:ml-5">
             Latest Project
           </button>
          </div>
